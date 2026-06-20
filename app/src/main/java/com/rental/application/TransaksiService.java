@@ -1,4 +1,4 @@
-package com.rental.application.service;
+package com.rental.application;
 
 import com.rental.domain.entity.Kendaraan;
 import com.rental.domain.entity.Pelanggan;

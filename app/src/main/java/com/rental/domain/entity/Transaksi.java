@@ -13,20 +13,20 @@ public class Transaksi {
     private static final DateTimeFormatter FORMATTER =
             DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm");
 
-        private String idTransaksi;
-        private String nomorKtp;       
-        private String platNomor;      
-        private String namaLengkap;    
-        private String jenis;          
-        private int durasiHari;
-        private double hargaPerHari;
-        private double uangJaminan;    
-        private double biayaDasar;
-        private double dendaKeterlambatan;
-        private double totalBayar;
-        private StatusTransaksi status;
-        private String tanggalMulai;
-        private String tanggalSelesai;
+    private String idTransaksi;
+    private String nomorKtp;       
+    private String platNomor;      
+    private String namaLengkap;    
+    private String jenis;          
+    private int durasiHari;
+    private double hargaPerHari;
+    private double uangJaminan;    
+    private double biayaDasar;
+    private double dendaKeterlambatan;
+    private double totalBayar;
+    private StatusTransaksi status;
+    private String tanggalMulai;
+    private String tanggalSelesai;
 
     public Transaksi() {}
 
