@@ -1,8 +1,8 @@
 package com.rental.presentation.menu;
 
-import com.rentalapp.application.service.AuthService;
-import com.rentalapp.domain.entity.User;
-import com.rentalapp.presentation.util.ConsoleHelper;
+import com.rental.application.AuthService;
+import com.rental.domain.entity.User;
+import com.rental.presentation.util.ConsoleHelper;
 
 public class LoginMenu {
 

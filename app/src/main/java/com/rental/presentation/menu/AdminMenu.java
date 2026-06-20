@@ -1,10 +1,10 @@
 package com.rental.presentation.menu;
 
-import com.rentalapp.application.service.KendaraanService;
-import com.rentalapp.domain.entity.Kendaraan;
-import com.rentalapp.domain.entity.Motor;
-import com.rentalapp.domain.entity.User;
-import com.rentalapp.presentation.util.ConsoleHelper;
+import com.rental.application.KendaraanService;
+import com.rental.domain.entity.Kendaraan;
+import com.rental.domain.entity.Motor;
+import com.rental.domain.entity.User;
+import com.rental.presentation.util.ConsoleHelper;
 
 import java.util.List;
 

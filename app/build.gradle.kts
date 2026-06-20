@@ -32,6 +32,9 @@ application {
     mainClass.set("com.rental.Main")
 }
 
+tasks.named<JavaExec>("run") {
+    standardInput = System.`in`
+}
 tasks.test {
     useJUnitPlatform()
 }

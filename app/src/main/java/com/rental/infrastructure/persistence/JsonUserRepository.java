@@ -3,8 +3,8 @@ package com.rental.infrastructure.persistence;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import com.rentalapp.domain.entity.User;
-import com.rentalapp.domain.repository.UserRepository;
+import com.rental.domain.entity.User;
+import com.rental.domain.repository.UserRepository;
 
 import java.io.IOException;
 import java.lang.reflect.Type;

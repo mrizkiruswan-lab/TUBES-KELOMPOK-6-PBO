@@ -1,13 +1,13 @@
 package com.rental.presentation.menu;
 
-import com.rentalapp.application.service.KendaraanService;
-import com.rentalapp.application.service.PelangganService;
-import com.rentalapp.application.service.TransaksiService;
-import com.rentalapp.domain.entity.Kendaraan;
-import com.rentalapp.domain.entity.Pelanggan;
-import com.rentalapp.domain.entity.Transaksi;
-import com.rentalapp.domain.entity.User;
-import com.rentalapp.presentation.util.ConsoleHelper;
+import com.rental.application.KendaraanService;
+import com.rental.application.PelangganService;
+import com.rental.application.TransaksiService;
+import com.rental.domain.entity.Kendaraan;
+import com.rental.domain.entity.Pelanggan;
+import com.rental.domain.entity.Transaksi;
+import com.rental.domain.entity.User;
+import com.rental.presentation.util.ConsoleHelper;
 
 import java.util.List;
 import java.util.Optional;
