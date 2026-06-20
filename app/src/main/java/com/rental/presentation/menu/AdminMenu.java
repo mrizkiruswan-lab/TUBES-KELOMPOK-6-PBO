@@ -147,7 +147,7 @@ public class AdminMenu {
     }
 
     private void printDashboard(String username) {
-        ConsoleHelper.printHeader("DASHBOARD - ADMIN");
+        ConsoleHelper.printHeader("\t\t\tDASHBOARD - ADMIN");
         System.out.println("  Selamat Datang, " + username + "!");
         System.out.println("  Silahkan pilih menu:");
         System.out.println("  1. Tambah Kendaraan Baru");
