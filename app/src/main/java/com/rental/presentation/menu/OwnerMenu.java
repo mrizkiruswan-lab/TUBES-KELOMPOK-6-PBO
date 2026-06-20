@@ -29,7 +29,7 @@ public class OwnerMenu {
     }
 
     private void lihatLaporan() {
-        ConsoleHelper.printHeader("LAPORAN RIWAYAT & PENDAPATAN");
+        ConsoleHelper.printHeader("\t\t\tLAPORAN RIWAYAT & PENDAPATAN");
 
         List<Transaksi> list = transaksiService.lihatSemuaTransaksi();
 
@@ -64,7 +64,7 @@ public class OwnerMenu {
     }
 
     private void printDashboard(String username) {
-        ConsoleHelper.printHeader("DASHBOARD - OWNER");
+        ConsoleHelper.printHeader("\t\t\tDASHBOARD - OWNER");
         System.out.println("  Selamat Datang, " + username + ".");
         System.out.println("  Silahkan pilih menu:");
         System.out.println("  1. Lihat Laporan Pendapatan & Riwayat");

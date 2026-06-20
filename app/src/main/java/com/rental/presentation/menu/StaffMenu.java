@@ -44,7 +44,7 @@ public class StaffMenu {
 
 
     private void daftarPelanggan() {
-        ConsoleHelper.printHeader("MENU PENDAFTARAN PELANGGAN");
+        ConsoleHelper.printHeader("\t\t\tMENU PENDAFTARAN PELANGGAN");
         System.out.println("(ketik 0 pada Nomor KTP untuk kembali)");
 
         String ktp = ConsoleHelper.readLine("Masukkan Nomor KTP    : ");
@@ -64,7 +64,7 @@ public class StaffMenu {
     }
 
     private void cariPelanggan() {
-        ConsoleHelper.printHeader("MENU PENCARIAN PELANGGAN");
+        ConsoleHelper.printHeader("\t\t\tMENU PENCARIAN PELANGGAN");
         System.out.println("(ketik 0 untuk kembali)");
 
         String ktp = ConsoleHelper.readLine("Masukkan Nomor KTP : ");
@@ -85,7 +85,7 @@ public class StaffMenu {
     }
 
     private void cekKendaraanTersedia() {
-        ConsoleHelper.printHeader("DAFTAR KENDARAAN TERSEDIA");
+        ConsoleHelper.printHeader("\t\t\tDAFTAR KENDARAAN TERSEDIA");
         List<Kendaraan> list = kendaraanService.lihatKendaraanTersedia();
 
         if (list.isEmpty()) {
@@ -100,7 +100,7 @@ public class StaffMenu {
 
 
     private void prosesPeminjaman() {
-        ConsoleHelper.printHeader("MENU PEMINJAMAN KENDARAAN");
+        ConsoleHelper.printHeader("\t\t\tMENU PEMINJAMAN KENDARAAN");
         System.out.println("(ketik 0 pada KTP untuk kembali)");
 
         String ktp = ConsoleHelper.readLine("Masukkan Nomor KTP Pelanggan  : ");
@@ -164,7 +164,7 @@ public class StaffMenu {
         System.out.println("Estimasi Biaya : " + ConsoleHelper.formatRupiah(t.getBiayaDasar()));
         if (t.getUangJaminan() > 0) {
             System.out.println("Uang Jaminan   : " + ConsoleHelper.formatRupiah(t.getUangJaminan()) +
-                    "  ← [PREMIUM] akan dikembalikan saat pengembalian");
+                    " [PREMIUM] akan dikembalikan saat pengembalian");
             System.out.println("TOTAL DIBAYAR  : " + ConsoleHelper.formatRupiah(
                     t.getBiayaDasar() + t.getUangJaminan()));
         }
@@ -185,7 +185,7 @@ public class StaffMenu {
 
         if (t.getUangJaminan() > 0) {
             System.out.println("Uang Jaminan   : " + ConsoleHelper.formatRupiah(t.getUangJaminan()) +
-                    "  ← [DIKEMBALIKAN ke pelanggan]");
+                    " [DIKEMBALIKAN ke pelanggan]");
         }
 
         System.out.println("----------------------------------");
@@ -194,7 +194,7 @@ public class StaffMenu {
     }
 
     private void printDashboard(String username) {
-        ConsoleHelper.printHeader("DASHBOARD - STAFF");
+        ConsoleHelper.printHeader("\t\t\tDASHBOARD - STAFF");
         System.out.println("  Selamat Datang, " + username + "!");
         System.out.println("  Silahkan pilih menu:");
         System.out.println("  1. Daftar Pelanggan Baru");

@@ -51,18 +51,18 @@ public final class ConsoleHelper {
     }
 
     public static String formatRupiah(double amount) {
-        return String.format("Rp %,.0f", amount);
+        return "Rp " + amount ;
     }
 
     public static void printHeader(String title) {
-        String line = "=".repeat(60);
+        String line = "=".repeat(62);
         System.out.println("\n" + line);
         System.out.println("  " + title);
         System.out.println(line);
     }
 
     public static void printDivider() {
-        System.out.println("-".repeat(60));
+        System.out.println("-".repeat(62));
     }
 
     public static void printSuccess(String msg) {
